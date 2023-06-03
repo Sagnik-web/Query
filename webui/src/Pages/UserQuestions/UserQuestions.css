@@ -1,0 +1,143 @@
+.user_questions{
+    color: var( --card-text-color);
+    max-width: 1000px;
+    margin: auto;
+}
+
+.user_questions > h3{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.user_questions > h3 > p{
+    padding: 10px 27px;
+
+}
+
+.user_questions_ask_btn{
+    background-color: rgb(6, 23, 37);
+    cursor: pointer;
+}
+
+.user_questions_items{
+    display: flex;
+   justify-content: space-between;
+   margin-top: 27px;
+   margin-bottom: 27px;
+}
+
+.user_questions_items p{
+    display: inline-block;
+    font-size: 17px;
+    padding: 10px 20px;
+    background-color: var(--dark-main-card);
+    width: 140px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.user_questions_search{
+    display: flex;
+    max-width: 500px;
+    margin: auto;
+    margin-top: 25px;
+    margin-bottom: 27px;
+}
+
+.user_questions_search_input{
+    flex:1
+}
+
+.user_questions_search_input input{
+    font-size: 16px;
+    padding: 7px 17px;
+    width: calc(100% - 35px);
+    background-color: var( --tag-search);
+    outline: none;
+    border: none;
+}
+
+.user_questions_search_btn{
+    width: 100px;
+    text-align: center;
+    padding-top: 8px;
+    background-color: var(--dark-main-card);
+    cursor: pointer;
+}
+
+.user_questions_hr{
+    /* color: rgba(255, 255, 255, 0.534); */
+
+    /* max-width: 70%; */
+}
+
+.user_questions_card_bg{
+    background-color: var(--dark-main-card);
+    width: calc(100% - 100px);
+    margin: auto;
+    padding: 25px; 
+    font-size: 17px;
+    display: flex;
+    margin-top: 30px;
+    border-radius: 7px;
+
+}
+
+
+.user_questions_card_info{
+    margin-right: 30px;
+}
+
+.user_questions_card_info p{
+    width: 100px;
+    padding: 6px 15px;
+    text-align: center;
+    border: 1px solid var( --card-text-color);
+    border-radius: 5px;
+    margin-top: 3px;
+    margin-bottom: 10px;
+
+}
+
+.user_questions_card_qus >div  > h3{
+    font-size: 20px;
+    margin-bottom: 7px;
+}
+
+.user_questions_card_qus_end{
+    display: flex;
+    justify-content: space-between;
+}
+
+.user_questions_card_qus img{
+    width: 400px;
+}
+
+.user_questions_card_qus hr{
+    border-bottom: 0.5px solid var( --card-text-color);
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.user_questions_btn {
+    display: flex;
+    justify-content: end;
+}
+
+.user_questions_btn p{
+    padding: 10px 27px;
+    background-color: rgb(0, 28, 53);
+    margin-left: 22px;
+    font-weight: 700;
+    cursor: pointer;
+
+}
+
+.user_questions_form, .user_questions_alert_msg{
+    position: fixed;
+    z-index: 5;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}

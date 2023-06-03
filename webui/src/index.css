@@ -1,0 +1,19 @@
+@import url('./Constant/cssConstant/cssConstant.css');
+
+
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  background: var(--dark-main-page);
+  font-family: 'Lato', sans-serif;
+}
+
+button{
+  padding: 0;
+  margin: 0;
+}
+

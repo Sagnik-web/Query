@@ -1,0 +1,129 @@
+@import url('../../Constant/cssConstant/cssConstant.css');
+
+.questions_ans{
+    color: var( --card-text-color);
+    max-width: 1000px;
+    margin: auto;
+}
+
+.questions_ans_items{
+    display: flex;
+   justify-content: space-between;
+   margin-top: 27px;
+}
+
+.questions_ans_items p{
+    display: inline-block;
+    font-size: 17px;
+    padding: 10px 20px;
+    background-color: var(--dark-main-card);
+    width: 140px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.questions_ans_search{
+    display: flex;
+    max-width: 500px;
+    margin: auto;
+    margin-top: 25px;
+    margin-bottom: 27px;
+}
+
+.questions_ans_search_input{
+    flex:1
+}
+
+.questions_ans_search_input input{
+    font-size: 16px;
+    padding: 7px 17px;
+    width: calc(100% - 35px);
+    background-color: var( --tag-search);
+    outline: none;
+    border: none;
+}
+
+.questions_ans_search_btn{
+    width: 100px;
+    text-align: center;
+    padding-top: 8px;
+    background-color: var(--dark-main-card);
+    cursor: pointer;
+}
+
+.questions_ans_hr{
+    /* color: rgba(255, 255, 255, 0.534); */
+
+    /* max-width: 70%; */
+}
+
+.questions_ans_card_bg{
+    background-color: var(--dark-main-card);
+    width: calc(100% - 100px);
+    margin: auto;
+    padding: 25px 35px ; 
+    font-size: 17px;
+    display: flex;
+    margin-top: 30px;
+    border-radius: 7px;
+
+}
+
+
+.questions_ans_card_info{
+    margin-right: 30px;
+}
+
+.questions_ans_card_info p{
+    width: 100px;
+    padding: 6px 15px;
+    text-align: center;
+    border: 1px solid var( --card-text-color);
+    border-radius: 5px;
+    margin-top: 3px;
+    margin-bottom: 10px;
+
+}
+
+.questions_ans_card_qus >div  > h3{
+    font-size: 20px;
+    margin-bottom: 7px;
+}
+
+.questions_ans_card_qus_end{
+    display: flex;
+    justify-content: space-between;
+}
+
+.questions_ans_card_qus img{
+    width: 400px;
+}
+
+.questions_ans_card_qus hr{
+    border-bottom: 0.5px solid var( --card-text-color);
+    margin-bottom: 15px;
+}
+
+.questions_ans_card{
+    margin-top: 25px;
+}
+
+.questions_ans_card > h3{
+    display: inline-block;
+    /* margin-bottom: 30px; */
+    /* font-size: 24px; */
+    border-bottom: 1px solid var(--card-text-color);
+}
+
+.questions_ans_card_item{
+    background-color: var( --dark-main-ans-card);
+    padding: 20px 30px;
+    border-radius: 10px;
+    margin-left: 25px;
+    margin-top: 25px;
+    margin-right: 25px;
+}
+
+.questions_ans_card_item > div > h3, .questions_ans_card_item > div > p, .questions_ans_card_item > div > img{
+    margin-bottom: 10px;
+}

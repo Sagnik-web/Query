@@ -1,0 +1,64 @@
+.login{
+    background-color: #00292d;
+    width: 550px;
+    margin: auto;
+    text-align: center;
+    border-radius: 10px;
+    padding: 55px 0;
+    margin-top: 17vh;
+}
+
+.login h2{
+    color: #fff;
+    margin-bottom: 35px;
+}
+
+.login p{
+    margin-bottom: 30px;
+}
+
+.login > p >img{
+    height: 50px;
+    width: 50px;
+    border-radius: 25px;
+    position: absolute;
+    /* display: inline-block; */
+}
+
+
+.login > p > input{
+    font-size: 17px;
+    padding: 10px 24px;
+    outline: none;
+    border: none;
+    margin-top: 5px;
+    background-color: #476468;
+    
+}
+
+.login_email > input{
+    border-bottom-right-radius : 20px;
+    border-top-right-radius : 20px;
+    margin-left: 30px;
+}
+
+.login_pass > input{
+    border-bottom-left-radius : 20px;
+    border-top-left-radius : 20px;
+    margin-right: -19px;
+}
+
+
+.login > p > input::placeholder{
+    color: rgba(0, 0, 0, 0.7);
+}
+
+
+.login_btn{
+    background-color: #fff;
+    color: #00222d;
+    font-weight: bolder;
+    border-radius: 30px;
+    padding: 12px 80px;
+    display: inline-block;
+}

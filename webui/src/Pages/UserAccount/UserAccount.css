@@ -1,0 +1,59 @@
+@import url('../../Constant/cssConstant/cssConstant.css');
+
+.user_account{
+    width: 600px;
+    padding: 27px 45px;
+    background-color: var(--dark-main-card);
+    color: var( --card-text-color);
+    margin: auto;
+    margin-top: 10vh;
+}
+
+.user_account h3{
+    margin-bottom: 25px;
+    text-align: center;
+}
+
+.user_account p{
+    margin-bottom: 12px;
+    padding: 14px 25px;
+    background-color: rgb(0, 28, 53);
+    border-radius: 7px;
+}
+
+.user_account_pass{
+    display: flex;
+    justify-content: space-between;
+}
+
+.user_account_pass_edit{
+    cursor: pointer;
+}
+
+.user_account_pass_edit:hover{
+    color: rgba(255, 255, 255, 0.5);
+    /* text-decoration: underline; */
+    border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+.user_account_delete{
+    text-align: end ;
+}
+
+.user_account_delete button{
+    padding: 14px 25px;
+    background-color: rgb(0, 28, 53);
+    color: var( --card-text-color);
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.user_account_alert_msg{
+    position: fixed;
+    z-index: 5;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}

@@ -1,0 +1,68 @@
+@import url('../../Constant/cssConstant/cssConstant.css');
+
+.questions_form{
+    width: 700px;
+    margin: auto;
+    padding: 30px 37px;
+    border-radius: 10px;
+    background-color: rgb(1, 3, 41);
+}
+
+.questions_form > p > input{
+    width: calc(100% - 40px);
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    background-color: rgba(255, 255, 255, 0.75);
+}
+
+.questions_form > p > textarea{
+    width: calc(100% - 40px);
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    resize: vertical;
+    background-color: rgba(255, 255, 255, 0.75);
+    min-height: 190px;
+
+}
+
+.questions_form > p{
+    margin-bottom: 17px;
+}
+
+#questions_form_file{
+    display: none;
+}
+
+.upload_btn{
+    border-radius: 20px;
+    padding: 10px 35px;
+    background-color: rgba(255, 255, 255, 0.75);
+    cursor: pointer;
+
+}
+
+.submit_btn{
+    text-align: center;
+    /* display: flex; */
+    /* justify-content: space-around; */
+}
+
+.submit_btn button{
+    border-radius: 22px;
+    padding: 12px 55px;
+    background-color: rgba(255, 255, 255, 0.75);
+    margin-left: 20px;
+    cursor: pointer;
+
+}
+
+.questions_form_img{
+    width: 200px;
+}
+

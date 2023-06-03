@@ -1,0 +1,172 @@
+@import url('../../Constant/cssConstant/cssConstant.css');
+
+.nav_bg_static{
+    height: 100px;
+}
+
+.nav_bg{
+    width: 100%;
+    background-color: var(--dark-nav);
+    /* height: 65px; */
+    position: fixed;
+}
+
+
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 17px 35px;
+
+}
+
+.nav_section{
+    display: flex;
+    /* vertical-align: middle; */
+}
+
+.nav_section > input{
+    padding: 10px 15px;
+    font-size: 16px;
+    width: 27vw;
+    min-width: 350px;
+    outline: none;
+    border: none;
+}
+
+.nav_section > button {
+    padding: 11px 15px;
+    margin-top: 2.5px;
+    font-weight: bold;
+    background: var(--dark-button);
+    color: #fff;
+    border: none;
+    outline: none;
+}
+
+.nav_section_login{
+    margin-left: 15px;
+}
+
+.nav_section img{
+    width: 20px;
+    height: 20px;
+}
+
+.nav_section_search{
+    display: flex;
+}
+
+/* #nav_search{
+    padding: 7px 15px;
+} */
+
+.nav_section_search p{
+    padding: 12px 30px;
+    cursor: pointer;
+    background: var(--dark-button);
+
+}
+
+.nav_section_search input{
+    background: var(--dark-serch);
+    color: #fff;
+}
+
+.nav_avater{
+    display: flex;
+    background-color: var(--dark-button);
+    padding: 4px 17px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.nav_avater p{
+    color: #fff;
+    margin-top: 10px;
+    margin-left: 15px;
+}
+
+.dropdown_img img{
+    width: 15px;
+    /* height: 50px; */
+}
+
+.nav_avater_dropdown{
+    display: none;
+    position: absolute;
+    padding: 20px 15px;
+    color: #fff;
+    background-color: #2b2f3e;
+    width: 179px;
+    /* margin-top: 5px; */
+}
+
+.nav_avater_dropdown p{
+    padding: 15px;
+    cursor: pointer;
+}
+
+.nav_avater_dropdown p:hover{
+    background-color: rgb(0 28 53);
+    border-radius: 5px;
+}
+
+.nav_dropdown:hover .nav_avater_dropdown{
+    display: block;
+}
+
+
+
+
+
+.overlay {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0, 0.9);
+    overflow-x: hidden;
+    transition: 0.5s;
+  }
+  
+  .overlay-content {
+    position: relative;
+    top: 25%;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+  }
+  
+  .overlay a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 36px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  .overlay a:hover, .overlay a:focus {
+    color: #f1f1f1;
+  }
+  
+  .overlay .closebtn {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px;
+  }
+  
+  @media screen and (max-height: 450px) {
+    .overlay a {font-size: 20px}
+    .overlay .closebtn {
+    font-size: 40px;
+    top: 15px;
+    right: 35px;
+    }
+  }
+  

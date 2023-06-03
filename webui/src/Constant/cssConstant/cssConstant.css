@@ -1,0 +1,20 @@
+:root {
+    --dark-button:#121d38;
+    --dark-nav:#000718;
+    --dark-serch:#212d4d;
+    --dark-tag-bg:#303030;
+    --dark-tag-bg-hover:#404040;
+    --dark-tag-text:#f3f3f3;
+
+    --dark-main-page:#191e2c;
+    --dark-main-card:#2b2f3e;
+    --dark-main-ans-card:#1d2338a2;
+
+
+    --card-text-color:rgba(255, 255, 255, 0.72);
+    --tag-search:rgba(255, 255, 255,0.78);
+
+    --sub-text-color:#f7f8f9;
+    --main-text-color:#737a87;
+    --like:rgb(225 12 2);
+}
